@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/layout_margins"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/albumImage"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_margin="@dimen/layout_margins"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_action_playback_play" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/layout_margins">
+
+        <TextView
+            android:id="@+id/composerName"
+            style="@style/listItemStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            tools:text="Mozart - " />
+
+        <TextView
+            android:id="@+id/albumTitle"
+            style="@style/listItemStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/composerName"
+            tools:text="@string/Bach3" />
+
+        <TextView
+            android:id="@+id/track"
+            style="@style/listItemStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/composerName"
+            android:textStyle="bold"
+            tools:text="@string/track2" />
+
+        <TextView
+            android:id="@+id/trackDuration"
+            style="@style/listItemStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/albumTitle"
+            android:layout_below="@id/albumTitle"
+            android:layout_weight="1"
+            tools:text="3:34" />
+    </RelativeLayout>
+
+</LinearLayout>

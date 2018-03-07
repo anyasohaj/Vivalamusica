@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">Viva la Musica</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="prev">Previous track</string>
+    <string name="next">Next track</string>
+    <string name="progress">Progress bar</string>
+
+    <string name="Mozart1">Violin Concertos</string>
+    <string name="Mozart2">Symphonies</string>
+    <string name="Mozart3">Best of Mozart</string>
+    <string name="Mozart4">Laudate Dominum</string>
+    <string name="Mozart5">Sonatas</string>
+    <string name="Mozart6">Piano Concertos</string>
+    <string name="Mozart7">Horn Concertos</string>
+    <string name="Mozart8">Violin Sonatas</string>
+    <string name="Mozart9">String Quartets</string>
+    <string name="Mozart10">Mozart Arias</string>
+    <string name="Mozart11">Mass in C Minor</string>
+    <string name="Mozart12">Don Giovanni</string>
+
+    <string-array name="Mozart">
+        <item>@string/Mozart1</item>
+        <item>@string/Mozart2</item>
+        <item>@string/Mozart3</item>
+        <item>@string/Mozart4</item>
+        <item>@string/Mozart5</item>
+        <item>@string/Mozart6</item>
+        <item>@string/Mozart7</item>
+        <item>@string/Mozart8</item>
+        <item>@string/Mozart9</item>
+        <item>@string/Mozart10</item>
+        <item>@string/Mozart11</item>
+        <item>@string/Mozart12</item>
+    </string-array>
+
+    <string name="Beethoven1">Symphonies</string>
+    <string name="Beethoven2">Concertos</string>
+    <string name="Beethoven3">Allegro con Brio</string>
+    <string name="Beethoven4">Moonlight Sonata</string>
+    <string name="Beethoven5">Missa Solemnis</string>
+    <string name="Beethoven6">Violin Concertos</string>
+    <string name="Beethoven7">Late String Quartets</string>
+    <string name="Beethoven8">Cello Sonatas</string>
+
+    <string-array name="Beethoven">
+        <item>@string/Beethoven1</item>
+        <item>@string/Beethoven2</item>
+        <item>@string/Beethoven3</item>
+        <item>@string/Beethoven4</item>
+        <item>@string/Beethoven5</item>
+        <item>@string/Beethoven6</item>
+        <item>@string/Beethoven7</item>
+        <item>@string/Beethoven8</item>
+    </string-array>
+
+    <string name="Bach1">Matthew Passion</string>
+    <string name="Bach2">Cantatas</string>
+    <string name="Bach3">Essential Bach</string>
+    <string name="Bach4">Brandenburg Concertos</string>
+    <string name="Bach5">Organ works</string>
+    <string name="Bach6">Mass in B Minor</string>
+    <string name="Bach7">The Art of Fugue</string>
+    <string name="Bach8">St. John Passion</string>
+
+    <string-array name="Bach">
+        <item>@string/Bach1</item>
+        <item>@string/Bach2</item>
+        <item>@string/Bach3</item>
+        <item>@string/Bach4</item>
+        <item>@string/Bach5</item>
+        <item>@string/Bach6</item>
+        <item>@string/Bach7</item>
+        <item>@string/Bach8</item>
+    </string-array>
+
+    <string name="Chopin1">Piano Concertos</string>
+    <string name="Chopin2">Nocturnes</string>
+    <string name="Chopin3">The Four Ballades</string>
+    <string name="Chopin4">Complete Mazurkas</string>
+    <string name="Chopin5">Recital</string>
+    <string name="Chopin6">Waltzes</string>
+    <string name="Chopin7">Cello Sonatas</string>
+    <string name="Chopin8">Polonaises</string>
+
+    <string-array name="Chopin">
+        <item>@string/Chopin1</item>
+        <item>@string/Chopin2</item>
+        <item>@string/Chopin3</item>
+        <item>@string/Chopin4</item>
+        <item>@string/Chopin5</item>
+        <item>@string/Chopin6</item>
+        <item>@string/Chopin7</item>
+        <item>@string/Chopin8</item>
+    </string-array>
+
+    <string name="track1">Track 1</string>
+    <string name="track2">Track 2</string>
+    <string name="track3">Track 3</string>
+    <string name="track4">Track 4</string>
+    <string name="track5">Track 5</string>
+    <string name="track6">Track 6</string>
+    <string name="track7">Track 7</string>
+    <string name="track8">Track 8</string>
+    <string name="track9">Track 9</string>
+    <string name="track10">Track 10</string>
+    <string name="track11">Track 11</string>
+    <string name="track12">Track 12</string>
+    <string name="track13">Track 13</string>
+    <string name="track14">Track 14</string>
+    <string name="track15">Track 15</string>
+    <string name="track16">Track 16</string>
+
+    <string-array name="tracks">
+        <item>@string/track1</item>
+        <item>@string/track2</item>
+        <item>@string/track3</item>
+        <item>@string/track4</item>
+        <item>@string/track5</item>
+        <item>@string/track6</item>
+        <item>@string/track7</item>
+        <item>@string/track8</item>
+        <item>@string/track9</item>
+        <item>@string/track10</item>
+        <item>@string/track11</item>
+        <item>@string/track12</item>
+        <item>@string/track13</item>
+        <item>@string/track14</item>
+        <item>@string/track15</item>
+        <item>@string/track16</item>
+
+    </string-array>
+</resources>

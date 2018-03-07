@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vintage"
+    android:orientation="vertical"
+    tools:context="com.bagirapp.vivalamusica.ComposerActivity">
+
+    <ImageView
+        android:id="@+id/composerPic"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/layout_margins"
+        android:layout_marginVertical="12dp"
+        android:layout_weight="2"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bach" />
+
+    <ListView
+        android:id="@+id/albums"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/list_view_margin"
+        android:layout_weight="1">
+    </ListView>
+
+</LinearLayout>
